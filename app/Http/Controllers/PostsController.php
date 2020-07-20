@@ -41,6 +41,6 @@ class PostsController extends Controller
 
     public function show(\App\Post $post)
     {
-        return view('posts.show', compact('post'));
+        return view('posts.show', compact('post')); 
     }
 }
